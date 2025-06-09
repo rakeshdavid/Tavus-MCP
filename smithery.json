@@ -3,10 +3,10 @@
   "displayName": "Tavus MCP Server",
   "description": "A comprehensive Model Context Protocol server for the Tavus API, enabling AI video generation, replica management, conversational AI, lipsync, and speech synthesis.",
   "version": "0.1.0",
-  "author": "Your Name",
+  "author": "Rakesh David",
   "license": "MIT",
-  "homepage": "https://github.com/yourusername/tavus-mcp-server",
-  "repository": "https://github.com/yourusername/tavus-mcp-server",
+  "homepage": "https://github.com/rakeshdavid/Tavus-MCP",
+  "repository": "https://github.com/rakeshdavid/Tavus-MCP",
   "category": "ai-video",
   "tags": [
     "tavus",

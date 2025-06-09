@@ -61,8 +61,8 @@ npm install -g tavus-mcp
 ### Option 2: From Source
 
 ```bash
-git clone https://github.com/yourusername/tavus-mcp-server.git
-cd tavus-mcp-server
+git clone https://github.com/rakeshdavid/Tavus-MCP.git
+cd Tavus-MCP
 npm install
 npm run build
 ```
@@ -168,8 +168,8 @@ This MCP server provides complete coverage of the Tavus API v2, including:
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/tavus-mcp-server.git
-cd tavus-mcp-server
+git clone https://github.com/rakeshdavid/Tavus-MCP.git
+cd Tavus-MCP
 npm install
 ```
 
@@ -221,7 +221,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - **Documentation**: [Tavus API Documentation](https://docs.tavus.io)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/tavus-mcp-server/issues)
+- **Issues**: [GitHub Issues](https://github.com/rakeshdavid/Tavus-MCP/issues)
 - **MCP Protocol**: [Model Context Protocol](https://modelcontextprotocol.io)
 
 ## Changelog

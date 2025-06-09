@@ -13,15 +13,15 @@
     "speech-synthesis",
     "ai-replica"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Rakesh David",
   "license": "MIT",
-  "homepage": "https://github.com/yourusername/tavus-mcp-server#readme",
+  "homepage": "https://github.com/rakeshdavid/Tavus-MCP#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/tavus-mcp-server.git"
+    "url": "git+https://github.com/rakeshdavid/Tavus-MCP.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/tavus-mcp-server/issues"
+    "url": "https://github.com/rakeshdavid/Tavus-MCP/issues"
   },
   "type": "module",
   "main": "./build/index.js",
