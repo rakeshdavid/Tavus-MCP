@@ -1,5 +1,7 @@
 # Tavus MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@rakeshdavid/tavus-mcp)](https://smithery.ai/server/@rakeshdavid/tavus-mcp)
+
 A comprehensive Model Context Protocol (MCP) server for the Tavus API, enabling AI video generation, replica management, conversational AI, lipsync, and speech synthesis through MCP-compatible applications.
 
 ## Features
@@ -51,6 +53,14 @@ A comprehensive Model Context Protocol (MCP) server for the Tavus API, enabling 
 - A Tavus API key (get one at [platform.tavus.io](https://platform.tavus.io))
 
 ## Installation
+
+### Installing via Smithery
+
+To install tavus-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@rakeshdavid/tavus-mcp):
+
+```bash
+npx -y @smithery/cli install @rakeshdavid/tavus-mcp --client claude
+```
 
 ### Option 1: NPM Package (Recommended)
 
