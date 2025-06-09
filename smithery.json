@@ -1,0 +1,163 @@
+{
+  "name": "tavus-mcp",
+  "displayName": "Tavus MCP Server",
+  "description": "A comprehensive Model Context Protocol server for the Tavus API, enabling AI video generation, replica management, conversational AI, lipsync, and speech synthesis.",
+  "version": "0.1.0",
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/tavus-mcp-server",
+  "repository": "https://github.com/yourusername/tavus-mcp-server",
+  "category": "ai-video",
+  "tags": [
+    "tavus",
+    "ai-video",
+    "video-generation",
+    "conversational-ai",
+    "lipsync",
+    "speech-synthesis",
+    "ai-replica",
+    "phoenix"
+  ],
+  "mcp": {
+    "server": {
+      "command": "npx",
+      "args": ["tavus-mcp"],
+      "env": {
+        "TAVUS_API_KEY": {
+          "required": true,
+          "description": "Your Tavus API key from platform.tavus.io",
+          "type": "string",
+          "secret": true
+        }
+      }
+    },
+    "tools": [
+      {
+        "name": "create_replica",
+        "description": "Create new AI replicas from training videos"
+      },
+      {
+        "name": "get_replica",
+        "description": "Get detailed information about a specific replica"
+      },
+      {
+        "name": "list_replicas",
+        "description": "List all replicas in your account"
+      },
+      {
+        "name": "delete_replica",
+        "description": "Delete a replica permanently"
+      },
+      {
+        "name": "rename_replica",
+        "description": "Rename an existing replica"
+      },
+      {
+        "name": "generate_video",
+        "description": "Generate videos using replicas with text scripts or audio files"
+      },
+      {
+        "name": "get_video",
+        "description": "Get details of a specific video"
+      },
+      {
+        "name": "list_videos",
+        "description": "List all videos in your account"
+      },
+      {
+        "name": "delete_video",
+        "description": "Delete a video permanently"
+      },
+      {
+        "name": "rename_video",
+        "description": "Rename an existing video"
+      },
+      {
+        "name": "create_conversation",
+        "description": "Create interactive video conversations"
+      },
+      {
+        "name": "get_conversation",
+        "description": "Get details of a specific conversation"
+      },
+      {
+        "name": "list_conversations",
+        "description": "List all conversations in your account"
+      },
+      {
+        "name": "end_conversation",
+        "description": "End an active conversation"
+      },
+      {
+        "name": "delete_conversation",
+        "description": "Delete a conversation permanently"
+      },
+      {
+        "name": "create_persona",
+        "description": "Create new personas for conversational AI"
+      },
+      {
+        "name": "get_persona",
+        "description": "Get details of a specific persona"
+      },
+      {
+        "name": "list_personas",
+        "description": "List all personas in your account"
+      },
+      {
+        "name": "patch_persona",
+        "description": "Update a persona using JSON patch format"
+      },
+      {
+        "name": "delete_persona",
+        "description": "Delete a persona permanently"
+      },
+      {
+        "name": "create_lipsync",
+        "description": "Synchronize audio with existing videos"
+      },
+      {
+        "name": "get_lipsync",
+        "description": "Get details of a specific lipsync"
+      },
+      {
+        "name": "list_lipsyncs",
+        "description": "List all lipsyncs in your account"
+      },
+      {
+        "name": "delete_lipsync",
+        "description": "Delete a lipsync permanently"
+      },
+      {
+        "name": "generate_speech",
+        "description": "Generate speech audio from text using replicas"
+      },
+      {
+        "name": "get_speech",
+        "description": "Get details of a specific speech"
+      },
+      {
+        "name": "list_speeches",
+        "description": "List all speeches in your account"
+      },
+      {
+        "name": "delete_speech",
+        "description": "Delete a speech permanently"
+      },
+      {
+        "name": "rename_speech",
+        "description": "Rename an existing speech"
+      }
+    ]
+  },
+  "requirements": {
+    "node": ">=18.0.0"
+  },
+  "installation": {
+    "npm": "tavus-mcp"
+  },
+  "documentation": {
+    "setup": "Get your Tavus API key from https://platform.tavus.io and set it as the TAVUS_API_KEY environment variable.",
+    "usage": "This server provides 25 tools for comprehensive Tavus API access including AI video generation, replica management, conversational AI, lipsync, and speech synthesis."
+  }
+}

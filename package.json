@@ -1,0 +1,59 @@
+{
+  "name": "tavus-mcp",
+  "version": "0.1.0",
+  "description": "A comprehensive Model Context Protocol (MCP) server for the Tavus API, enabling AI video generation, replica management, conversational AI, lipsync, and speech synthesis.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tavus",
+    "ai-video",
+    "video-generation",
+    "conversational-ai",
+    "lipsync",
+    "speech-synthesis",
+    "ai-replica"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/tavus-mcp-server#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/tavus-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/tavus-mcp-server/issues"
+  },
+  "type": "module",
+  "main": "./build/index.js",
+  "bin": {
+    "tavus-mcp": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js",
+    "test": "npm run build && npm run inspector",
+    "clean": "rm -rf build",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "axios": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "node": ">=18.0.0"
+  }
+}
