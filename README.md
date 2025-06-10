@@ -2,6 +2,8 @@
 
 A comprehensive Model Context Protocol (MCP) server for the Tavus API, enabling AI video generation, replica management, conversational AI, lipsync, and speech synthesis through MCP-compatible applications.
 
+[![smithery badge](https://smithery.ai/badge/@rakeshdavid/tavus-mcp)](https://smithery.ai/server/@rakeshdavid/tavus-mcp)
+
 ## Features
 
 ### 🎭 Phoenix Replicas (5 tools)
