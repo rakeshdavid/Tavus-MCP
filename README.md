@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/rakeshdavid-tavus-mcp-badge.png)](https://mseep.ai/app/rakeshdavid-tavus-mcp)
+
 # Tavus MCP Server
 
 A comprehensive Model Context Protocol (MCP) server for the Tavus API, enabling AI video generation, replica management, conversational AI, lipsync, and speech synthesis through MCP-compatible applications.
