@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/rakeshdavid-tavus-mcp-badge.png)](https://mseep.ai/app/rakeshdavid-tavus-mcp)
+
 # Tavus MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@rakeshdavid/tavus-mcp)](https://smithery.ai/server/@rakeshdavid/tavus-mcp)
